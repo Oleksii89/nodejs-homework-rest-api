@@ -6,8 +6,8 @@
     "phone": "(992) 914-3792"
   },
   {
-    "id": "drsAJ4SHPYqZeG-83QTVW",
-    "name": "Kennedy Lane",
+    "contactId": "drsAJ4SHPYqZeG-83QTVW",
+    "name": "Alex",
     "email": "mattis.Cras@nonenimMauris.net",
     "phone": "(542) 451-7038"
   },
@@ -54,21 +54,15 @@
     "phone": "(748) 206-2688"
   },
   {
-    "id": "Y4W6RyIcwp88JuxIkM8F7",
-    "name": "Alex Small",
-    "email": "erw@gmail.com",
-    "phone": "13"
-  },
-  {
-    "id": "wFuxUOC1qZB1aK8eKBtaK",
-    "name": "Alex",
-    "email": "mattis.Cras@nonenimMauris.net",
-    "phone": "113"
-  },
-  {
     "contactId": "X1qGoNPWk0j05UCdjK6NG",
     "name": "Sergii",
     "email": "mattis.Cras@nonenimMauris.net",
     "phone": "113"
+  },
+  {
+    "id": "1dNXLCAR3yyYm8b5rVFkL",
+    "name": "Dmytro",
+    "email": "nutella@gmail.com",
+    "phone": "444555444"
   }
 ]
