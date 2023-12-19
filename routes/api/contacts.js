@@ -10,24 +10,24 @@ const { schemas } = require("../../models/contact");
 
 router.get("/", ctrl.getAllContacts);
 
-router.get("/:contactId", isValid, ctrl.getContactById);
+router.get("/:id", isValid, ctrl.getContactById);
 
 router.post("/", validateBody(schemas.addSchema), ctrl.addContact);
 
 router.put(
-  "/:contactId",
+  "/:id",
   isValid,
   validateBody(schemas.addSchema),
   ctrl.updateContact
 );
 
 router.patch(
-  "/:contactId/favorite",
+  "/:id/favorite",
   isValid,
   validateBody(schemas.updateFavoriteSchema),
   ctrl.updateStatusContact
 );
 
-router.delete("/:contactId", isValid, ctrl.removeContact);
+router.delete("/:id", isValid, ctrl.removeContact);
 
 module.exports = router;
